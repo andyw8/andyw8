@@ -10,6 +10,6 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: andyw8/rss-to-readme-rb@main
+      - uses: andyw8/rss-to-readme-rb/.github/workflows/rss.yml@main
         with:
           rss_url: https://www.andywaite.com/feed.xml
