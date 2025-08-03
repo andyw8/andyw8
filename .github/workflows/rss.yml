@@ -8,8 +8,6 @@ on:
 
 jobs:
   update:
-    runs-on: ubuntu-latest
-    env:
+    uses: andyw8/rss-to-readme-rb/.github/workflows/rss.yml@main
+    with:
       RSS_URL: https://andywaite.com/feed.xml
-    steps:
-      - uses: andyw8/rss-to-readme-rb/.github/workflows/rss.yml@main
